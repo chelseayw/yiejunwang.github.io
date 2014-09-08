@@ -38,7 +38,7 @@ body {
 
 	border-bottom: solid 1px #ddd;
 
-	padding: 30px 20px 30px 30px;
+	padding: 27px 20px 27px 30px;
 }
 
 #header_left {
@@ -181,10 +181,10 @@ body {
 
 #about {
 	text-align: center;
-	padding-bottom: 100px;
+	padding-bottom: 60px;
 	line-height: 27px;
 	background-color: #eee;
-	padding-top: 135px;
+	padding-top: 100px;
 }
 
 #emaillink {
@@ -207,9 +207,15 @@ body {
     padding-bottom: 10%;
     width: 100%;
 }
-.project:hover{
+
+.project_thumb:hover{
     cursor: pointer;
 }
+
+.project_title:hover{
+    cursor: pointer;
+}
+
 .project:hover .project_thumb{
     opacity: 0.9;
 }
