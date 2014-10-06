@@ -89,7 +89,7 @@ body {
 	line-height: 50px;
 	font-weight: bold;
     font-family: Brown, Apercu, Arial;
-    font-family: 'brownregular_alt', Apercu, Arial;
+/*    font-family: 'brownregular_alt', Apercu, Arial;*/
 
 	/*text-align: center;*/
 
@@ -131,7 +131,7 @@ body {
     font-size: 2em;
     margin-bottom: 30px;
     font-family: Brown, Apercu, Arial;
-    font-family: 'brownregular_alt', Apercu, Arial;
+/*    font-family: 'brownregular_alt', Apercu, Arial;*/
     line-height: 40px;
 }
 
@@ -192,7 +192,7 @@ body {
 
 #emaillink {
     font-family: Brown, Apercu, Arial;
-    font-family: 'brownregular_alt', Apercu, Arial;
+/*    font-family: 'brownregular_alt', Apercu, Arial;*/
 	font-size: 35px;
 	font-weight: bold;
     color: black;
@@ -220,13 +220,15 @@ body {
     cursor: pointer;
 }
 
-.project:hover .project_thumb{
-    opacity: 0.9;
+.project:hover .project_thumb:hover {
+    opacity: 0.7;
 }
 
+/*
 .project_thumb {
     border: 1px black;
 }
+*/
 
 @media screen and (min-width: 600px){
     #work{
