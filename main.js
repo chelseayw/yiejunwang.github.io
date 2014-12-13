@@ -32,8 +32,11 @@ $("#header a").click(function(event) {
 });
 
 $("#header_left").click(function() {
-    console.log("huzzah");
-    $("#proj_display").html("").show();
+    $("#proj_display").css("height", "0");
+    setTimeout(function(){
+        $('#proj_display').html('').show(); 
+        $('#proj_display').css('height', 'auto');
+    }, 2000);
 });
 
 $("#work .project").each(function(){
