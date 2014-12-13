@@ -229,23 +229,6 @@ body {
 }
 */
 
-@media screen and (min-width: 320px) {
-    #work {
-        padding: 3%;
-    }
-    .project {
-/*        padding: 3.22%;*/
-        width: 100%;
-    }
-    #splash{
-        font-size: 40px;
-	   line-height: 50px;
-    }
-    #splash .center {
-        max-width: 340px;
-    }
-}
-
 @media screen and (min-width: 600px){
     #work{
         padding: 3%;
@@ -263,6 +246,7 @@ body {
     }
     
 }
+
 @media screen and (min-width: 1000px){
     #work{
         padding: 3%;
@@ -277,6 +261,23 @@ body {
     }
     #splash .center {
         max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #work {
+        padding: 3%;
+    }
+    .project {
+/*        padding: 3.22%;*/
+/*        width: 93.66%;*/
+    }
+    #splash{
+        font-size: 40px;
+	   line-height: 50px;
+    }
+    #splash .center {
+        max-width: 340px;
     }
 }
 
