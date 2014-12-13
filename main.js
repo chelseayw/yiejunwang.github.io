@@ -36,7 +36,7 @@ $("#header_left").click(function() {
     setTimeout(function(){
         $('#proj_display').html('').show(); 
         $('#proj_display').css('opacity', '1');
-    }, 2000);
+    }, 1800);
 });
 
 $("#work .project").each(function(){
