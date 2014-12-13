@@ -33,7 +33,7 @@ $("#header a").click(function(event) {
 
 $("#header_left").click(function() {
     console.log("huzzah");
-    $("#proj_display").html(data.replace("")).show();
+    $("#proj_display").html("").show();
 });
 
 $("#work .project").each(function(){
