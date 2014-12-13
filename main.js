@@ -31,9 +31,9 @@ $("#header a").click(function(event) {
     event.preventDefault();         
 });
 
-//$("#header_left").click(function() {
-//    $("#proj_display").html(data.replace("")).show();
-//});
+$("#header_left").click(function() {
+    $("#proj_display").html(data.replace("")).show();
+});
 
 $("#work .project").each(function(){
     var proj_id = $(this).attr("projid");
