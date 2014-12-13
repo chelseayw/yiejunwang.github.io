@@ -32,10 +32,10 @@ $("#header a").click(function(event) {
 });
 
 $("#header_left").click(function() {
-    $("#proj_display").css("height", "0");
+    $("#proj_display").css("opacity", "0");
     setTimeout(function(){
         $('#proj_display').html('').show(); 
-        $('#proj_display').css('height', 'auto');
+        $('#proj_display').css('opacity', '1');
     }, 2000);
 });
 
