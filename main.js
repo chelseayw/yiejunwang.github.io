@@ -45,6 +45,7 @@ $("#work .project").each(function(){
         $(this).find(".project_thumb").css("background-image","url('projects/"+proj_id+"/thumb.png')");
     }
 });
+
 //
 //var proj_width = $(".project").first().width();
 //$(document).resize(function() {
