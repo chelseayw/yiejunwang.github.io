@@ -18,7 +18,8 @@ body {
 	background-color: #fff;
 	color: #000;
 	padding: 0px;
-	padding-top: 78px;
+/*	padding-top: 78px;*/
+    padding-top: 50px;
 
 	font-size: 18px;
 	font-family: Apercu, Arial;
@@ -101,6 +102,13 @@ body {
     width:94%;
 	max-width: 340px;
 	margin: 0px auto;
+}
+
+#description {
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 22px;
 }
 
 #work {
