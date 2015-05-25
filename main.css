@@ -14,32 +14,14 @@
     src: url(fonts/Brown-Regular-Alt.otf);
 }
 
-#blurb {
-    font-size: 14.5px;
-    line-height: 21px;
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 450px;
-    color: black;
-}
-
-#blurbtitle {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-    padding-bottom: 20px;
-    color: #9090db;
-}
-
 body {
 	background-color: #fff;
 	color: #000;
 	padding: 0px;
-/*	padding-top: 78px;*/
-    padding-top: 50px;
+	padding-top: 78px;
 
 	font-size: 18px;
-	font-family: 'Karla', 'Arial', sans-serif;
+	font-family: Apercu, Arial;
 	margin: 0px;
 }
 
@@ -119,13 +101,6 @@ body {
     width:94%;
 	max-width: 340px;
 	margin: 0px auto;
-}
-
-#description {
-    font-size: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
-    line-height: 22px;
 }
 
 #work {
