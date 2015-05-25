@@ -14,6 +14,23 @@
     src: url(fonts/Brown-Regular-Alt.otf);
 }
 
+#blurb {
+    font-size: 14.5px;
+    line-height: 21px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 450px;
+    color: black;
+}
+
+#blurbtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 20px;
+    color: #9090db;
+}
+
 body {
 	background-color: #fff;
 	color: #000;
@@ -22,7 +39,7 @@ body {
     padding-top: 50px;
 
 	font-size: 18px;
-	font-family: Apercu, Arial;
+	font-family: 'Karla', 'Arial', sans-serif;
 	margin: 0px;
 }
 
